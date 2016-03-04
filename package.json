@@ -1,0 +1,27 @@
+{
+  "name": "virt-ui-circle_ripple",
+  "version": "0.0.1",
+  "description": "virt material ui circle_ripple",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakasho-libs/virt-ui-circle_ripple.git"
+  },
+  "main": "src/index.js",
+  "author": "Bakasho Team",
+  "license": "MIT",
+  "keywords": [
+    "virt-ui-circle_ripple",
+    "virt-ui-circle_ripple.js"
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-jsbeautifier": "^0.2.7"
+  },
+  "dependencies": {
+    "css": "git://github.com/nathanfaucett/css.git",
+    "prop_types": "git://github.com/nathanfaucett/prop_types.git",
+    "virt": "git://github.com/nathanfaucett/virt.git"
+  }
+}
