@@ -20,8 +20,8 @@
     "grunt-jsbeautifier": "^0.2.7"
   },
   "dependencies": {
-    "css": "git://github.com/nathanfaucett/css.git",
-    "prop_types": "git://github.com/nathanfaucett/prop_types.git",
-    "virt": "git://github.com/nathanfaucett/virt.git"
+    "@nathanfaucett/css": "^0.0.1",
+    "@nathanfaucett/prop_types": "^0.0.1",
+    "@nathanfaucett/virt": "^0.0.1"
   }
 }
