@@ -7,7 +7,7 @@
     "url": "https://github.com/bakasho-libs/virt-ui-circle_ripple.git"
   },
   "scripts": {
-    "example": "comn -f ./example/src/index.js -o ./example/index.js"
+    "example": "comn -f ./example/src/index.js -o ./example/index.js -m"
   },
   "main": "src/index.js",
   "author": "Faucette Team",
@@ -18,7 +18,7 @@
   ],
   "readmeFilename": "README.md",
   "devDependencies": {
-    "@nathanfaucett/comn": "^0.0.9",
+    "@nathanfaucett/comn": "^0.0.11",
     "@nathanfaucett/virt-dom": "^0.0.3",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.2",
