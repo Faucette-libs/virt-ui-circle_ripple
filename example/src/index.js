@@ -14,18 +14,21 @@ AppPrototype = App.prototype;
 
 AppPrototype.getChildContext = function() {
     return {
-        muiTheme: {
+        theme: {
             styles: {}
         }
     };
 };
 
 AppPrototype.render = function() {
+    var _this = this;
+
     return (
         virt.createView("div", {
                 className: "App"
             },
             virt.createView(CircleRipple, {
+                onDone: function onDone() {},
                 top: 0,
                 left: 0,
                 size: 128
