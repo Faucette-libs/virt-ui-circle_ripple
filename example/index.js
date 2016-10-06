@@ -76,7 +76,7 @@
         }
     };
 
-    global["N3xKjc9v-yFP0-46Er-EBZy-PSsWizvcMNRmS"] = function(asyncDependencies) {
+    global["bvU3bHbP-efS1-4dUf-sfyj-7v68AiKABLpmz"] = function(asyncDependencies) {
         var i = -1,
             il = asyncDependencies.length - 1,
             dependency, index;
@@ -262,7 +262,7 @@ CircleRipplePrototype.componentDidMount = function() {
             fading: true
         });
 
-        setTimeout(_this.props.onDone, 2000);
+        setTimeout(_this.props.onDone, 1000);
     });
 };
 

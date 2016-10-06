@@ -43,7 +43,7 @@ CircleRipplePrototype.componentDidMount = function() {
             fading: true
         });
 
-        setTimeout(_this.props.onDone, 2000);
+        setTimeout(_this.props.onDone, 1000);
     });
 };
 
