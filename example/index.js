@@ -76,7 +76,7 @@
         }
     };
 
-    global["eptIHLQ5-zQtq-42MO-cSWO-RM5iRWg79gRWZ"] = function(asyncDependencies) {
+    global["N3xKjc9v-yFP0-46Er-EBZy-PSsWizvcMNRmS"] = function(asyncDependencies) {
         var i = -1,
             il = asyncDependencies.length - 1,
             dependency, index;
@@ -279,7 +279,9 @@ CircleRipplePrototype.getStyle = function() {
         };
 
     css.borderRadius(style, "50%");
-    css.transition(style, "opacity 2s cubic-bezier(0.23, 1, 0.32, 1)", "transform 1s cubic-bezier(0.23, 1, 0.32, 1)");
+    css.transition(style,
+        "opacity 1000ms " + css.easing.out,
+        "transform 500ms " + css.easing.out);
 
     if (this.state.fading) {
         css.opacity(style, 0);
